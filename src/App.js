@@ -5,6 +5,8 @@ import {Container} from 'react-bootstrap';
 import UseFetch from './hooks/UseFetch';
 //import {API_KEY, API_BASE_URL} from './apis/config'
 import WeatherList from './components/WeatherList.js';
+const { API_KEY } = process.env;
+const { API_BASE_URL } = process.env;
 
 const App = () => {
   const {data, error, isLoading, setUrl, reset, setReset} = UseFetch();
