@@ -1,0 +1,55 @@
+.Title {
+    padding-top: 25px;
+    padding-bottom: 5px;
+}
+
+.TextInput {
+    font-size: large;
+    border: 1px solid #EEEEEE;
+    padding: 5px;
+    border-radius: 3px;
+    display: block;
+    margin: 5px auto;
+}
+
+.TextInput:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 10px rgb(20, 71, 182);
+}
+
+.Radio {
+    font-size: small;
+    padding-right: 10px;
+}
+
+.RadioRow{
+    padding-bottom: 15px;
+}
+
+.Button {
+    display: block;
+    margin: 10px auto;
+    padding: .5rem;
+    font-size: 1em;
+    background: deepskyblue;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.ResetButton {
+    display: block;
+    margin: 10px auto;
+    padding: .5rem;
+    font-size: 1em;
+    background: deepskyblue;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.ButtonRow {
+    padding-bottom: 20px;
+}

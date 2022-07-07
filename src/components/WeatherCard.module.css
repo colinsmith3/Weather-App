@@ -1,0 +1,6 @@
+.WeatherCard {
+    display: block;
+    margin: auto;
+    background-color: white;
+    outline: 5px black;
+}

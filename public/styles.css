@@ -1,0 +1,27 @@
+.Title {
+    text-align: center;
+    padding-top: 20px;
+    color:white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-weight: 800;
+    font-style: oblique;
+    font-size: 3.5em;
+}
+
+.Logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+}
+
+.Header {
+    background-color: deepskyblue;
+}
+
+.Footer {
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 30px;
+    color: black;
+}
